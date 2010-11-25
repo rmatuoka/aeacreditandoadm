@@ -7,7 +7,7 @@ class Admin::SessionsController < ApplicationController
     if @User
       session[:logged] = true
       session[:login] = @User.email
-      redirect_to admin_sections_path
+      redirect_to admin_notices_path
     else
       flash[:msg] = "Usuário e/ou senha inválidos."
       render :action => "new"
