@@ -78,17 +78,17 @@ $(document).ready(function(){
 			</li>
 			-->
 			
-			
+			<!-- 
 			<li class="MenuItem Newsreaders">
 				<a href="<%=admin_newsletters_path%>">newsreaders</a>
-			</li>
+			</li> -->
 			
-			<!--
+			
 			<li class="MenuItem Contatos">
 				<a href="<%=admin_contacts_path%>">contatos</a>
 			</li>
 			
-			
+			<!--
 			<li class="MenuItem Visitas">
 				<a href="<%=admin_videos_path%>">vídeos</a>
 			</li>
